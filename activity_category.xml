@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Category">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose your age category"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="Below 18"
+        android:textSize="50dp"
+        android:id="@+id/below"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="18-45"
+        android:id="@+id/middle"
+        android:textSize="50dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="Above 45"
+        android:id="@+id/above"
+        android:textSize="50dp" />
+
+</LinearLayout>

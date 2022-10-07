@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Squat">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="469dp"
+        android:src="@drawable/squat" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Stand with your hands on the back of your head and your feet shoulder-width apart with your feet turned out slightly to open the hip joint. 2. Lower your body until your thighs are parallel to the floor. 3. Pause, then return to the starting position."
+        android:textSize="20dp"
+        />
+
+</LinearLayout>

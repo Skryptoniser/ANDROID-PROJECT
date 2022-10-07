@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Hamstring">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="469dp"
+        android:src="@drawable/hamstring" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stand with your feet hip-width apart. Place your hands on your waist or on a chair for balance. Shift your weight onto your left leg.
+2. Slowly bend your right knee, bringing your heel toward your butt. Keep your thighs parallel.
+3. Slowly lower your foot."
+        android:textSize="20dp"
+        />
+
+</LinearLayout>
